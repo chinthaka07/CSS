@@ -8,11 +8,10 @@
     <title>Document</title>
 
     <style type="text/css">
-
-        .detail{
+    /*        .detail{
             text-transform: uppercase;
         }
-        .my-name{/* Selectors */
+        .my-name{!* Selectors *!
             color: maroon;
         }
         .my-address{
@@ -20,18 +19,47 @@
         }
         p{
             color: green;
-        }
+        }*/
+
+    /*
+    #my-name{
+        color: red;
+    }
+    #my-address{
+        color: navy;
+    }
+    */
+
+    /*Descendent Selector*/
+    .outer h1{
+        color: red;
+    }
+
     </style>
 </head>
 <body>
 
-<h1 class="my-name detail">My name is : Chinthaka Weerasekara</h1>
-<h1 class="my-address detail">Address : Pepiliyana</h1>
+<!--<h1 class="my-name detail">My name is : Chinthaka Weerasekara</h1>
+<h1 class="my-address detail">Address : Pepiliyana</h1>-->
 
-<p>
+<!--<h1 class="detail" id="my-name">My name is : Chinthaka Weerasekara</h1>
+<h1 class="detail" id="my-address">Address : Pepiliyana</h1>-->
+
+<!--<p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aliquam commodi culpa debitis explicabo ipsum,
     iusto laborum officia perferendis?
-</p>
+</p>-->
+
+<div class="outer">
+    <h1>Chinthaka Weerasekara</h1>
+    <h1>Chinthaka Weerasekara</h1>
+    <div class="inner">
+        <h1>Pepiliyana</h1>
+        <h1>Pepiliyana</h1>
+    </div>
+</div>
+
+
 
 </body>
 </html>
