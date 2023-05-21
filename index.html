@@ -8,7 +8,7 @@
     <title>Document</title>
 
     <style type="text/css">
-        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
     /*        .detail{
             text-transform: uppercase;
         }
@@ -129,19 +129,43 @@
         !*color: white;*!
     }*/
 
-    p{
-        /*font-family: 'Pacifico', cursive;*/
-        /*font-size: 250px;*/
+    /*p{
+        !*font-family: 'Pacifico', cursive;*!
+        !*font-size: 250px;*!
         font-size: 50px;
-        font-weight: 700; /*Sass*/
+        font-weight: 700; !*Sass*!
         font-style: italic;
         line-height: 60px;
         text-transform: uppercase;
+    }*/
+
+    /*Positions -> absolute, fixed, relative, sticky*/
+    /*Absolute*/
+    div {
+        width: 150px;
+        height: 150px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+    .div1{
+        position: absolute;
+        /*margin-left: 100px;*/
+        /*right: 0;
+        bottom: 0;*/
+        z-index: 1;
+    }
+    .div2{
+        position: absolute;
+        /*right: 0;*/
+        z-index: 3;
+    }
+
 
     </style>
 </head>
-<body>
+<body style="height: 5000px">
 
 <!--<h1 class="my-name detail">My name is : Chinthaka Weerasekara</h1>
 <h1 class="my-address detail">Address : Pepiliyana</h1>-->
@@ -207,8 +231,15 @@
     <h1>Chinthaka Weerasekara</h1>
 </div>-->
 
-<h1>Chinthaka</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur consequuntur cumque, debitis eligendi eveniet expedita facilis iure laborum mollitia nesciunt non nulla numquam reiciendis similique? A dolorum eum fugit sit tempora unde veritatis! Corporis incidunt non placeat. A aspernatur cum deleniti deserunt fuga illo natus perferendis suscipit veritatis vitae.</p>
+<!--<h1>Chinthaka</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur consequuntur cumque, debitis eligendi eveniet expedita facilis iure laborum mollitia nesciunt non nulla numquam reiciendis similique? A dolorum eum fugit sit tempora unde veritatis! Corporis incidunt non placeat. A aspernatur cum deleniti deserunt fuga illo natus perferendis suscipit veritatis vitae.</p>-->
+
+<div style="background-color: #55efc4" class="div1">1</div>
+<div style="background-color: #a29bfe" class="div2">2</div>
+<div style="background-color: #636e72" class="div3">3</div>
+<div style="background-color: #ffeaa7" class="div4">4</div>
+<div style="background-color: #fab1a0" class="div5">5</div>
+
 
 </body>
 </html>
