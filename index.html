@@ -274,15 +274,35 @@
         display: block;
         background-color: brown;
     }*/
-    div{
+
+    /*div{
         background-color: brown;
-        /*display: inline;*/
-        /*display: inline-block;*/
+        !*display: inline;*!
+        !*display: inline-block;*!
         display: none;
         width: 580px;
         height: 200px;
+    }*/
 
+    .box {
+        border: 1px solid brown;
+        width: 250px;
+        height: 250px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+    .box-1{
+        float: right;
+    }
+    .box-2{
+        float: left;
+    }
+    .clear-div{
+        clear: both;
+    }
+
 
     </style>
 </head>
@@ -381,8 +401,13 @@
 <!--<span>China</span>
 <span>Weer</span>-->
 
-<div>Chinthaka</div>
-<div>Sampath</div>
+<!--<div>Chinthaka</div>
+<div>Sampath</div>-->
+
+<div class="box-1 box">1</div>
+<div class="box-2 box">2</div>
+<div class="clear-div"></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, mollitia.</p>
 
 
 

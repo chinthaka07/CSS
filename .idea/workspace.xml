@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="creating shapes">
+    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="display inline, inline-block, none">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -64,7 +64,7 @@
       <workItem from="1684508476147" duration="3995000" />
       <workItem from="1684646114390" duration="1686000" />
       <workItem from="1684647972606" duration="6233000" />
-      <workItem from="1684654495979" duration="4491000" />
+      <workItem from="1684654495979" duration="5538000" />
     </task>
     <task id="LOCAL-00001" summary="add css inline style color">
       <created>1684509172879</created>
@@ -227,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684657912926</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="display inline, inline-block, none">
+      <created>1684659249996</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1684659249996</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +262,7 @@
     <MESSAGE value="scroll bar style" />
     <MESSAGE value="objects hover options" />
     <MESSAGE value="creating shapes" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating shapes" />
+    <MESSAGE value="display inline, inline-block, none" />
+    <option name="LAST_COMMIT_MESSAGE" value="display inline, inline-block, none" />
   </component>
 </project>
