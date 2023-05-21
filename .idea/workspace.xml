@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="not attribute">
-      <change afterPath="$PROJECT_DIR$/dog1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dog2.png" afterDir="false" />
+    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="not, start, end &amp; contains attributes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -65,7 +63,7 @@
       <updated>1684508474714</updated>
       <workItem from="1684508476147" duration="3995000" />
       <workItem from="1684646114390" duration="1686000" />
-      <workItem from="1684647972606" duration="2475000" />
+      <workItem from="1684647972606" duration="3677000" />
     </task>
     <task id="LOCAL-00001" summary="add css inline style color">
       <created>1684509172879</created>
@@ -144,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684649686943</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="not, start, end &amp; contains attributes">
+      <created>1684650506173</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684650506173</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +165,7 @@
     <MESSAGE value="siblin selector" />
     <MESSAGE value="nth-child selector" />
     <MESSAGE value="not attribute" />
-    <option name="LAST_COMMIT_MESSAGE" value="not attribute" />
+    <MESSAGE value="not, start, end &amp; contains attributes" />
+    <option name="LAST_COMMIT_MESSAGE" value="not, start, end &amp; contains attributes" />
   </component>
 </project>
