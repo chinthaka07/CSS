@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="nth-child selector">
+    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="not attribute">
+      <change afterPath="$PROJECT_DIR$/dog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dog2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -47,6 +49,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Developers Stack\Stage 3\Day 2\app1" />
+      <recent name="F:\Developers Stack\Stage 3\Day 2\app1\dog1" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +65,7 @@
       <updated>1684508474714</updated>
       <workItem from="1684508476147" duration="3995000" />
       <workItem from="1684646114390" duration="1686000" />
-      <workItem from="1684647972606" duration="1632000" />
+      <workItem from="1684647972606" duration="2475000" />
     </task>
     <task id="LOCAL-00001" summary="add css inline style color">
       <created>1684509172879</created>
@@ -129,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684649538817</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="not attribute">
+      <created>1684649686943</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684649686943</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +159,7 @@
     <MESSAGE value="adjective &amp; child selectors" />
     <MESSAGE value="siblin selector" />
     <MESSAGE value="nth-child selector" />
-    <option name="LAST_COMMIT_MESSAGE" value="nth-child selector" />
+    <MESSAGE value="not attribute" />
+    <option name="LAST_COMMIT_MESSAGE" value="not attribute" />
   </component>
 </project>
