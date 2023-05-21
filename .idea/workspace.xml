@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="float option">
+    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="background image options">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -64,7 +64,8 @@
       <workItem from="1684508476147" duration="3995000" />
       <workItem from="1684646114390" duration="1686000" />
       <workItem from="1684647972606" duration="6233000" />
-      <workItem from="1684654495979" duration="6886000" />
+      <workItem from="1684654495979" duration="7261000" />
+      <workItem from="1684663807082" duration="738000" />
     </task>
     <task id="LOCAL-00001" summary="add css inline style color">
       <created>1684509172879</created>
@@ -241,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684662059024</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="background image options">
+      <created>1684663348906</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1684663348906</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +279,7 @@
     <MESSAGE value="creating shapes" />
     <MESSAGE value="display inline, inline-block, none" />
     <MESSAGE value="float option" />
-    <option name="LAST_COMMIT_MESSAGE" value="float option" />
+    <MESSAGE value="background image options" />
+    <option name="LAST_COMMIT_MESSAGE" value="background image options" />
   </component>
 </project>
