@@ -185,7 +185,7 @@
         z-index: 3;
     }*/
 
-    /*Sticky*/
+    /*!*Sticky*!
     div {
         width: 150px;
         height: 150px;
@@ -196,14 +196,14 @@
     }
     .div1{
         position: absolute;
-        /*margin-left: 100px;*/
+        !*margin-left: 100px;*!
         right: 0;
         bottom: 0;
         z-index: 1;
     }
     .div2{
         position: fixed;
-        /*right: 0;*/
+        !*right: 0;*!
         bottom: 0;
         z-index: 3;
     }
@@ -211,10 +211,22 @@
         position: sticky;
         top: 0;
         margin-top: 200px;
+    }*/
+
+    /*Relative*/
+    .outer{
+        width: 500px;
+        height: 250px;
+        border: 1px solid red;
+        position: relative;
     }
-
-
-
+    .inner{
+        width: 150px;
+        height: 150px;
+        background-color: green;
+        position: absolute;
+        right: 0;
+    }
 
 
     </style>
@@ -288,12 +300,11 @@
 <!--<h1>Chinthaka</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur consequuntur cumque, debitis eligendi eveniet expedita facilis iure laborum mollitia nesciunt non nulla numquam reiciendis similique? A dolorum eum fugit sit tempora unde veritatis! Corporis incidunt non placeat. A aspernatur cum deleniti deserunt fuga illo natus perferendis suscipit veritatis vitae.</p>-->
 
-<div style="background-color: #55efc4" class="div1">1</div>
-<div style="background-color: #a29bfe" class="div2">2</div>
-<div style="background-color: #636e72" class="div3">3</div>
-<div style="background-color: #ffeaa7" class="div4">4</div>
-<div style="background-color: #fab1a0" class="div5">5</div>
+<div class="outer">
+    <div class="inner">
 
+    </div>
+</div>
 
 </body>
 </html>
