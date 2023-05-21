@@ -140,7 +140,29 @@
     }*/
 
     /*Positions -> absolute, fixed, relative, sticky*/
-    /*Absolute*/
+    /*    !*Absolute*!
+        div {
+            width: 150px;
+            height: 150px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .div1{
+            position: absolute;
+            !*margin-left: 100px;*!
+            !*right: 0;
+            bottom: 0;*!
+            z-index: 1;
+        }
+        .div2{
+            position: absolute;
+            !*right: 0;*!
+            z-index: 3;
+        }*/
+
+    /*!*fixed*!
     div {
         width: 150px;
         height: 150px;
@@ -151,16 +173,22 @@
     }
     .div1{
         position: absolute;
-        /*margin-left: 100px;*/
-        /*right: 0;
-        bottom: 0;*/
+        !*margin-left: 100px;*!
+        right: 0;
+        bottom: 0;
         z-index: 1;
     }
     .div2{
-        position: absolute;
-        /*right: 0;*/
+        position: fixed;
+        !*right: 0;*!
+        bottom: 0;
         z-index: 3;
-    }
+    }*/
+
+    /*Sticky*/
+
+
+
 
 
     </style>
