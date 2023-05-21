@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="siblin selector">
+    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="nth-child selector">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -57,7 +57,7 @@
       <updated>1684508474714</updated>
       <workItem from="1684508476147" duration="3995000" />
       <workItem from="1684646114390" duration="1686000" />
-      <workItem from="1684647972606" duration="1531000" />
+      <workItem from="1684647972606" duration="1632000" />
     </task>
     <task id="LOCAL-00001" summary="add css inline style color">
       <created>1684509172879</created>
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684648980661</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="nth-child selector">
+      <created>1684649538817</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684649538817</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +143,7 @@
     <MESSAGE value="descendent selector" />
     <MESSAGE value="adjective &amp; child selectors" />
     <MESSAGE value="siblin selector" />
-    <option name="LAST_COMMIT_MESSAGE" value="siblin selector" />
+    <MESSAGE value="nth-child selector" />
+    <option name="LAST_COMMIT_MESSAGE" value="nth-child selector" />
   </component>
 </project>
