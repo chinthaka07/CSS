@@ -355,19 +355,29 @@
         background: url("//") no-repeat center / cover;
     }*/
 
-    img{
+    /*img{
         transition: 1s ease-in;
     }
 
     img:hover{
-        /*transform: scale(2) rotate(360deg);*/
-        /*transform: translateX(250px);
-        transform: translateX(-250px);*/
-        /*transform: translateY(250px);
-        transform: translateY(-250px);*/
-        /*transform: translate(250px, 200px);*/
-    }
+        !*transform: scale(2) rotate(360deg);*!
+        !*transform: translateX(250px);
+        transform: translateX(-250px);*!
+        !*transform: translateY(250px);
+        transform: translateY(-250px);*!
+        !*transform: translate(250px, 200px);*!
+    }*/
 
+    div{
+        transition: 1s ease-in;
+        background-color: green;
+        width: 500px;
+        height: 100px;
+    }
+    div:hover{
+        /*transform: skew(60deg, 40deg);*/
+        transform: perspective(500px) rotate(50deg);
+    }
 
 
     </style>
@@ -481,7 +491,9 @@
 <!--<div class="box">
 </div>-->
 
-<img src="dog2.png" alt="" width="260">
+<!--<img src="dog2.png" alt="" width="260">-->
+
+<div></div>
 
 </body>
 </html>
