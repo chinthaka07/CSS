@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="box-shadow">
+    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="text animation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -73,7 +73,7 @@
       <workItem from="1684663807082" duration="2231000" />
       <workItem from="1684666088543" duration="1014000" />
       <workItem from="1684765659382" duration="684000" />
-      <workItem from="1684766527522" duration="4677000" />
+      <workItem from="1684766527522" duration="5312000" />
     </task>
     <task id="LOCAL-00001" summary="add css inline style color">
       <created>1684509172879</created>
@@ -334,14 +334,20 @@
       <option name="project" value="LOCAL" />
       <updated>1684770547086</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="text animation">
+      <created>1684771271715</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1684771271715</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="box model" />
     <MESSAGE value="opacity change" />
     <MESSAGE value="change font" />
     <MESSAGE value="change font attributes" />
@@ -366,6 +372,7 @@
     <MESSAGE value="transition" />
     <MESSAGE value="outline" />
     <MESSAGE value="box-shadow" />
-    <option name="LAST_COMMIT_MESSAGE" value="box-shadow" />
+    <MESSAGE value="text animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="text animation" />
   </component>
 </project>
