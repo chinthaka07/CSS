@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="transition">
+    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="outline">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -73,7 +73,7 @@
       <workItem from="1684663807082" duration="2231000" />
       <workItem from="1684666088543" duration="1014000" />
       <workItem from="1684765659382" duration="684000" />
-      <workItem from="1684766527522" duration="3657000" />
+      <workItem from="1684766527522" duration="3949000" />
     </task>
     <task id="LOCAL-00001" summary="add css inline style color">
       <created>1684509172879</created>
@@ -320,14 +320,20 @@
       <option name="project" value="LOCAL" />
       <updated>1684769905288</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="outline">
+      <created>1684770236669</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1684770236669</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="not attribute" />
     <MESSAGE value="not, start, end &amp; contains attributes" />
     <MESSAGE value="box model" />
     <MESSAGE value="opacity change" />
@@ -352,6 +358,7 @@
     <MESSAGE value="text transform" />
     <MESSAGE value="display flex" />
     <MESSAGE value="transition" />
-    <option name="LAST_COMMIT_MESSAGE" value="transition" />
+    <MESSAGE value="outline" />
+    <option name="LAST_COMMIT_MESSAGE" value="outline" />
   </component>
 </project>
