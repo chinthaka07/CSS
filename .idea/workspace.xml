@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="display flex">
+    <list default="true" id="615e3cd6-a68b-4a26-a927-a71e11099347" name="Changes" comment="transition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -73,7 +73,7 @@
       <workItem from="1684663807082" duration="2231000" />
       <workItem from="1684666088543" duration="1014000" />
       <workItem from="1684765659382" duration="684000" />
-      <workItem from="1684766527522" duration="3329000" />
+      <workItem from="1684766527522" duration="3657000" />
     </task>
     <task id="LOCAL-00001" summary="add css inline style color">
       <created>1684509172879</created>
@@ -313,14 +313,20 @@
       <option name="project" value="LOCAL" />
       <updated>1684767067071</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="transition">
+      <created>1684769905288</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1684769905288</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="nth-child selector" />
     <MESSAGE value="not attribute" />
     <MESSAGE value="not, start, end &amp; contains attributes" />
     <MESSAGE value="box model" />
@@ -345,6 +351,7 @@
     <MESSAGE value="text decorations" />
     <MESSAGE value="text transform" />
     <MESSAGE value="display flex" />
-    <option name="LAST_COMMIT_MESSAGE" value="display flex" />
+    <MESSAGE value="transition" />
+    <option name="LAST_COMMIT_MESSAGE" value="transition" />
   </component>
 </project>
