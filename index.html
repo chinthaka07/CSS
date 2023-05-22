@@ -8,30 +8,75 @@
     <title>Document</title>
 
     <style>
-        .outer{
+        /*.outer{
             width: 800px;
             height: 400px;
             border: 1px solid red;
-            /*-----------------*/
-            display: flex; /*flex-direction : row*/
+            !*-----------------*!
+            display: flex; !*flex-direction : row*!
+            !*flex-direction: column;
+            flex-direction: row-reverse;
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+            justify-content: center;
+            justify-content: flex-end;
+            align-items: flex-start;
+            align-items: center;
+            align-items: flex-end;
+            =======================
+            flex-direction: column;
+            justify-content: flex-start;
+            justify-content: center;
+            align-items: center;
+            =======================
+            justify-content: center;
+            align-items: center;*!
+            !*!*justify-content: space-between;*!
+            flex-wrap: wrap;*!
+
         }
         .items{
-            text-align: center;
             width: 80px;
             height: 60px;
-            border: 1px solid red;
+            display: inherit;
+            justify-content: center;
+            align-items: center;
+            border: inherit;
+            !*flex: 0.5;
+            flex-grow: 1;*!
         }
+        .items:nth-child(2){
+            order: 1;
+        }
+        .items:first-child{
+            order: 2;
+        }*/
+
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            /*transition: 1s;*/
+            transition: background-color 1s, width 2s, height 5s;
+        }
+        .box:hover{
+            background-color: brown;
+            width: 200px;
+            height: 200px;
+
+        }
+
+
+
     </style>
 
 </head>
 <body>
 
 <div class="outer">
-    <div class="items">1</div>
-    <div class="items">2</div>
-    <div class="items">3</div>
-    <div class="items">4</div>
-    <div class="items">5</div>
+    <div class="box">
+
+    </div>
 </div>
 
 </body>
