@@ -246,6 +246,44 @@
 
         }*/
 
+        /*.box{
+                    width: 80px;
+                    height: 80px;
+                    background-color: rgb(26,188,156);
+                    border-radius: 100%;
+                    display: flex;align-items: center;justify-content: center;
+                    color: white;
+                }
+                .box-1{
+                    animation: bounce 3s linear infinite;
+                }
+                .box-2{
+                    animation: bounce 3s ease infinite;
+                }
+                .box-3{
+                    animation: bounce 3s ease-in infinite;
+                }
+                .box-4{
+                    animation: bounce 3s ease-out infinite;
+                }
+                .box-5{
+                    animation: bounce 3s ease-in-out infinite;
+                }
+                @keyframes bounce {
+                    0%{
+                        transform: translateY(0);
+                        box-shadow: 0 4px 2px rgba(26,188,156, 0.5);
+                    }
+                    50%{
+                        transform: translateY(-100px);
+                    }
+                    100%{
+                        transform: translateY(0);
+                        box-shadow: 0 4px 2px rgba(26,188,156, 0.5);
+                    }
+
+                }*/
+
         .box{
             width: 80px;
             height: 80px;
@@ -253,33 +291,29 @@
             border-radius: 100%;
             display: flex;align-items: center;justify-content: center;
             color: white;
+            animation: fade 5s linear infinite;
         }
         .box-1{
-            animation: bounce 3s linear infinite;
+
         }
         .box-2{
-            animation: bounce 3s ease infinite;
+            animation-delay: 0.1s;
         }
         .box-3{
-            animation: bounce 3s ease-in infinite;
+            animation-delay: 0.2s;
         }
         .box-4{
-            animation: bounce 3s ease-out infinite;
+            animation-delay: 0.3s;
         }
         .box-5{
-            animation: bounce 3s ease-in-out infinite;
+            animation-delay: 0.4s;
         }
-        @keyframes bounce {
-            0%{
-                transform: translateY(0);
-                box-shadow: 0 4px 2px rgba(26,188,156, 0.5);
+        @keyframes fade {
+            0%, 100%{
+                opacity: 0;
             }
             50%{
-                transform: translateY(-100px);
-            }
-            100%{
-                transform: translateY(0);
-                box-shadow: 0 4px 2px rgba(26,188,156, 0.5);
+                opacity: 1;
             }
 
         }
