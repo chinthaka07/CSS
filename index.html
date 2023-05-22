@@ -192,7 +192,7 @@
         }*/
 
         /*keyframe base animations*/
-        .box{
+        /*.box{
             width: 150px;
             height: 150px;
             background-color: green;
@@ -206,7 +206,25 @@
                 opacity: 1;
             }
 
+        }*/
+
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: green;
+            animation: rotate 3s linear infinite;
         }
+        @keyframes rotate {
+            0%{
+                transform: rotate(0);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+
+        }
+
+
 
 
     </style>
