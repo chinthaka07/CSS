@@ -74,14 +74,38 @@
             outline: 3px dashed blue;
         }*/
 
-        .box{
+        /*.box{
             width: 100px;
             height: 100px;
             background-color: green;
-            /*border: 1px solid red;
-            outline: 3px dashed blue;*/
+            !*border: 1px solid red;
+            outline: 3px dashed blue;*!
             background-color: #1abc9c;
             box-shadow: 5px 5px 4px rgba(26,188,156,0.5);
+        }*/
+
+        @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+        .text{
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Kanit', 'sans-serif';
+            color: rgb(22,160,133);
+            text-shadow: 3px 3px 2px rgb(52,73,94);
+            animation: typing 3s steps(30) infinite;
+            /*border: 1px solid red;*/
+            overflow: hidden;
+            white-space: nowrap;
+            padding-right: 5px;
+            border-right: 1px solid red;
+        }
+
+        @keyframes typing {
+            0%{
+                width: 0;
+            }
+            100%{
+                width: 350px;
+            }
         }
 
 
@@ -91,10 +115,14 @@
 </head>
 <body>
 
-<div class="outer">
+<!--<div class="outer">
     <div class="box">
 
     </div>
+</div>-->
+
+<div class="text">
+    Developers Stack
 </div>
 
 </body>
